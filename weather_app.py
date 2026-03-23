@@ -2,7 +2,7 @@ import tkinter as tk
 import requests
 
 def get_weather(city):
-    api_key = "69892efc962ef52ab1f15456659595c4"
+    api_key = "69892efc962ef52ab1f15456659595c3"
     base_url = "http://api.openweathermap.org/data/2.5/weather"
     params = {
         "q": city,
